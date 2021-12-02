@@ -7,7 +7,12 @@ export default class Column{
         this.numbers.push(number);
     }
     SortNumbers(){
-        this.numbers.sort();
+        function compare(a,b){
+            if(a>b) return 1;
+            else if(a<b) return -1;
+            return 0;
+        }
+        this.numbers.sort(compare);
     }
     Display(){
         

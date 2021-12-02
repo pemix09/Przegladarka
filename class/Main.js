@@ -17,8 +17,9 @@ export default class Main{
             else{
                 this.columnTwo.AddNumber(number);
             }
-
         }
+        this.columnOne.SortNumbers();
+        this.columnTwo.SortNumbers();
     }
     Display(){
         this.columnOne.Display();
