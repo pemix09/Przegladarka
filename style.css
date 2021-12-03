@@ -21,7 +21,6 @@
     flex-direction: row;
     align-content: center;
     justify-content: center;
-    align-items: center;
 }
 .column{
     width: 70vh;

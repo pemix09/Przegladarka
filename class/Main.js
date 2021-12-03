@@ -18,10 +18,10 @@ export default class Main{
                 this.columnTwo.AddNumber(number);
             }
         }
-        this.columnOne.SortNumbers();
-        this.columnTwo.SortNumbers();
     }
     Display(){
+        this.columnOne.SortNumbers();
+        this.columnTwo.SortNumbers();
         this.columnOne.Display();
         this.columnTwo.Display();
     }
